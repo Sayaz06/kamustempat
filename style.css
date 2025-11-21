@@ -1,0 +1,95 @@
+body {
+    background: #f4f4f6;
+    margin: 0;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+.title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.btnPrimary, .btnSecondary {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.btnPrimary {
+    background: #4f46e5;
+    color: white;
+}
+.btnSecondary {
+    background: #10b981;
+    color: white;
+}
+.card {
+    background: white;
+    padding: 14px;
+    margin-top: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+textarea, input[type=text] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    resize: vertical;
+}
+.chatBubbleLeft {
+    align-self: flex-start;
+    background: #e6e6e6;
+    padding: 8px 12px;
+    border-radius: 14px;
+    margin-bottom: 6px;
+    max-width: 75%;
+    outline: none;
+}
+.chatBubbleRight {
+    align-self: flex-end;
+    background: #c8f7c5;
+    padding: 8px 12px;
+    border-radius: 14px;
+    margin-bottom: 6px;
+    max-width: 75%;
+    outline: none;
+}
+.elemen {
+    border: 1px dashed #d1d5db;
+    padding: 8px;
+    margin: 6px 0;
+    border-radius: 6px;
+    background: #fff;
+    position: relative;
+}
+.done {
+    color: green;
+    font-weight: 600;
+    margin-left: 8px;
+}
+.elemenTick {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.smallBtn {
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+.manageWatakBtn {
+    padding: 6px 8px;
+    border-radius: 6px;
+    font-size: 13px;
+    background: #f3f4f6;
+    border: 1px solid #e5e7eb;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Kamus Hafalan Tempat</title> <!-- ← tukar tajuk browser -->
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/iconKamusTempat-192.png"> <!-- ← tukar icon app -->
+<meta name="theme-color" content="#4f46e5">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Kamus Mengikut Tempat</h1> <!-- ← tukar tajuk besar dalam app -->
+    <button id="btnTambahPerkataan" class="btnPrimary">+ Tambah Perkataan Baharu</button>
+    <div id="daftarPerkataan"></div>
+    <hr>
+    <button id="btnExport" class="btnSecondary">Export JSON</button>
+    <input type="file" id="importFile" accept=".json" style="display:none;">
+    <button id="btnImport" class="btnSecondary">Import JSON</button>
+</div>
+<script src="app.js"></script>
+<script>
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/BIKamus/sw.js").then(()=>console.log("SW registered")).catch(console.error); <!-- ← tukar path ikut folder baru -->
+}
+</script>
+</body>
+</html>

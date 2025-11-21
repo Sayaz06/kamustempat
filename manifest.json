@@ -1,0 +1,21 @@
+{
+  "name": "Kamus Hafalan Tempat", // ← tukar nama app
+  "short_name": "AlterEgoI", // ← tukar short name app
+  "start_url": "/kamustempat/index.html", // ← tukar start_url ikut folder baru
+  "scope": "/kamustempat/", // ← tukar scope folder
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": 
+    {
+      "src": "/kamustempat/iconKamusTempat-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },// ← tukar icon path
+    {
+      "src": "/kamustempat/iconKamusTempat-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }// ← tukar icon path
+  ]
+}
