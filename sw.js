@@ -5,8 +5,8 @@ const FILES = [
   "/kamustempat/style.css", // ← tukar path ikut folder baru
   "/kamustempat/app.js", // ← tukar path ikut folder baru
   "/kamustempat/manifest.json", // ← tukar path ikut folder baru
-  "/kamustempat/iconKamusTempat-192.png", // ← tukar path icon
-  "/kamustempat/iconKamusTempat-512.png" // ← tukar path icon
+  "/kamustempat/icons/iconKamusTempat-192.png", // ← tukar path icon
+  "/kamustempat/icons/iconKamusTempat-512.png" // ← tukar path icon
 ];
 
 self.addEventListener("install", e => {
